@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
       body: Scaffold(
         body: Column(
           children: [
-           SizedBox(
+            SizedBox(
               width: MediaQuery.of(context).size.width,
               child: const Padding(
                 padding: EdgeInsets.only(right: 20),
@@ -34,6 +34,15 @@ class _HomePageState extends State<HomePage> {
               'assets/images/mapa.png',
               fit: BoxFit.cover,
             ),
+            const Padding(
+              padding: EdgeInsets.all(15),
+              child: SizedBox(
+                child: Text(
+                  'lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem loremlorem lorem ',
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            )
           ],
         ),
       ),
